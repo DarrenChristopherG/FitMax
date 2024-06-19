@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  @font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/poppins/v15/pxiEyp8kv8JHgFVrLDz8Z1JlEkxQ3w.ttf)
+      format("truetype");
+  }
+  
+  body {
+    background-image: url(./asset/bgoverlay.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Poppins", sans-serif;
+  }
+  /* .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  } */
+  
+  .header {
+    /* top: 0;
+    left: 0; */
+    width: 100%;
+    height: 15vh;
+    /* padding: 70px 200px; */
+    /* padding-top: 70px;
+    padding-left: 200px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .navbar a {
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    margin-left: 35px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    margin-left: 100px;
+    margin-right: 20px;
+  }
+
+  #loginbutton {
+    width: 150px;
+    height: 50px;
+    background-color: red;
+    box-shadow: none;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-right: 100px;
+  }
+
+  .second-section{
+    width: 100%;
+    height: 85vh;
+    background-color: yellow;
+  }
+
+  .top-div{
+    width: 100%;;
+    height: 20vh;
+    background-color: #161515;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .top-div h1{
+    margin-left: 120px;
+    font-size: 3rem;
+    color: white;
+  }
+
+  span{
+    color: crimson;
+  }
+
+  .bottom-div{
+    width: 100%;
+    background-color: #161515;
+    /* border: 1px solid white; */
+  }
+
+  .card{
+    width: 100%;
+    height: 33.3%;
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 8rem;
+    padding: 5rem;
+  }
+
+  .left-card{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .left-card img{
+    /* margin-left: 150px; */
+    width: 90%;
+    height: 80%;
+  }
+
+  .right-card{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    color: white;
+  }

@@ -1,0 +1,59 @@
+body {
+  background-color: black;
+  overflow-x: hidden;
+}
+
+.navbar {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./asset/EditProfileBG.png") no-repeat center center;
+  background-size: cover;
+  top: 0;
+  height: 15vh;
+  width: 100%;
+  z-index: 1;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20;
+}
+
+.navbar a {
+  color: #ffff;
+  text-decoration: none;
+}
+
+.header {
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  text-align: left;
+  padding-left: 280px;
+}
+
+.under {
+  /* background-color: red; */
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  padding-left: 270px;
+}
+
+.schedule {
+  /* background-color: blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.stat {
+  /* background-color: red; */
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  padding-left: 250px;
+  padding-top: 50px;
+}

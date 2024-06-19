@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffff;
+  }
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1e1e1e;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+
+.results-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.your-results, .food-list {
+    background-color: #2c2c2c;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.your-results {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.your-results h2, .food-list h2 {
+    margin-top: 0;
+}
+
+.results-list .result-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #444;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.result-item .result-label {
+    background-color: #e50914;
+    padding: 10px;
+    border-radius: 4px;
+    flex: 1;
+    text-align: center;
+}
+
+.result-item .result-value {
+    background-color: #333;
+    padding: 10px;
+    border-radius: 4px;
+    flex: 1;
+    text-align: center;
+}
+
+.save-button {
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.food-list {
+    width: 300px;
+}
+
+.food-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.food-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #444;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.food-item img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.food-item span {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.see-more {
+    color: #e50914;
+    text-align: right;
+    display: block;
+    margin-top: 10px;
+}
+
+.navbar {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                url('./asset/Calorie-RecipeBG.png') no-repeat center center;
+    background-size: cover;
+    top: 0;
+    height: 15vh;
+    width: 100%;
+    z-index: 1;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20;
+}
